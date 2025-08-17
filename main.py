@@ -20,7 +20,6 @@ app = FastAPI(
     version=settings.project_version,
     description="API для управления списком задач",
     docs_url="/docs" if settings.debug else None,
-    redoc_url="/redoc" if settings.debug else None,
     openapi_url="/openapi.json" if settings.debug else None
 )
 

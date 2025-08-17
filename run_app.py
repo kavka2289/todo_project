@@ -9,7 +9,6 @@ def main():
     """Запуск приложения"""
     print(f"🚀 Запуск {settings.project_name} v{settings.project_version}")
     print(f"📖 Документация: http://localhost:8000/docs")
-    print(f"🔍 ReDoc: http://localhost:8000/redoc")
     
     uvicorn.run(
         "main:app",
